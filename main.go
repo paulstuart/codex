@@ -69,7 +69,7 @@ import (
 //go:generate ./dbgen -output generated_test.go -type testStruct struct_test.go
 var (
 	typeNames  = flag.String("type", "", "comma-separated list of type names; leave blank for all")
-	outputFile = flag.String("output", "db_generated.go", "output file name")
+	outputFile = flag.String("output", "codex_generated.go", "output file name")
 	tagKey     = flag.String("tag", "end", "struct tag to specify binary encoding")
 )
 
